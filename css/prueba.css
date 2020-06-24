@@ -1,0 +1,76 @@
+/* Variables */
+/* SCSS */
+/* Home */
+.header {
+  display: flex; }
+
+.footer, .footer--secciones {
+  display: flex;
+  margin: 0px 10px 10px 10px;
+  justify-content: center;
+  color: white;
+  font-family: Belleza;
+  position: relative; }
+
+section {
+  margin: 10px 10px 10px 10px; }
+
+.textoSecciones {
+  font: Belleza;
+  color: #424242; }
+
+.textoHome {
+  font: Belleza;
+  color: white; }
+
+.navHome a {
+  text-decoration: none;
+  display: inline;
+  width: 100%;
+  margin-top: 10px;
+  color: white; }
+
+.h3.home {
+  margin-top: 60px;
+  position: relative;
+  padding-top: 50px;
+  color: white; }
+
+/* Servicios */
+#Servicios {
+  font-family: Belleza;
+  font-size: 100px;
+  margin-left: 70px;
+  margin-top: 70px; }
+
+.navSecciones {
+  display: inline;
+  padding: 0px 14px 0px 14px;
+  margin-top: 15px; }
+  .navSecciones a {
+    font-family: Belleza;
+    color: #424242;
+    text-decoration: none; }
+    .navSecciones a:hover {
+      color: #1ebfa6; }
+
+#titulosServicios {
+  display: flex;
+  position: absolute;
+  font-size: 50px;
+  color: #1ebfa6;
+  line-height: 40px;
+  margin: 20px 0px 0px 0px; }
+
+#cajaServicios {
+  display: flex;
+  position: absolute;
+  color: #1ebfa6; }
+  #cajaServicios ul {
+    display: block;
+    padding-top: 100px; }
+    #cajaServicios ul li {
+      font-family: Belleza;
+      display: flex;
+      flex-direction: column;
+      color: #181b5f; }

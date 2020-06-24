@@ -1,0 +1,49 @@
+body {
+    padding-left: 30px;
+    font-family: Belleza;
+}
+/* .row > [class*="col"] {outline: 1px solid red;} */
+ul {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+.container.proyecto {
+    margin-left: 0px;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.descripcionProyecto {
+    position: relative;
+}
+
+nav {
+    display: flex;
+	padding: 0px 14px 0px 14px;
+	margin-top: 10px;
+	font-family: Belleza;
+	color: #C4C4C4;
+	text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#consultaSelect {
+    display: inline-block;
+}
+
+#contactoBusca {
+	font-family: Belleza;
+	margin: 70px;
+
+}
+
+#cardContacto {
+    padding: 10px
+}
+

@@ -1,0 +1,316 @@
+* {
+	box-sizing: border-box;
+}
+
+p {
+	font-family: Belleza;
+}
+
+section {
+	margin: 10px 10px 10px 10px;
+
+}
+
+footer {
+	display: flex;
+	margin: 0px 10px 10px 10px;
+	justify-content: center;
+	color: white;
+	font-family: Belleza;
+	position: relative;
+}
+
+h2 {
+	font-family: Belleza;
+}
+
+/* --------------- Home --------------- */
+
+.fondoHome {
+	background-image: url(Imagenes/background1.png); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: #555;
+	margin: 0;
+	padding: 15px;
+	position: absolute;
+}
+
+.fondoSecciones {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 15px;
+	position: absolute;
+}
+
+.header {
+	display: flex;
+}
+
+.menuDiv {
+	display: flex;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.menuBlanco {
+	display: flex;
+	padding: 0px 14px 0px 14px;
+	margin-top: 10px;
+	font-family: Belleza;
+	color: white;
+	text-decoration: none;
+}
+
+.menuGris {
+	display: flex;
+	padding: 0px 14px 0px 14px;
+	margin-top: 10px;
+	font-family: Belleza;
+	color: #C4C4C4;
+	text-decoration: none;
+}
+
+.logotipo {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.textoHome {
+	color: white;
+	width: 30vw;
+}
+
+.nerina {
+	display: flex;
+	flex-direction: column;
+	padding: 250px 20px 0px 30px;
+	width: 60vw;
+	height: 150px;
+	font-family: Modak;
+	font-size: 135px;
+	line-height: 110px;
+	color: white;
+	justify-content: center;
+}
+
+.dIndependiente {
+	font-family: Belleza;
+	font-size: 40px;
+	color: white;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	width: 50vw;
+}
+
+.proyectoInicio {
+	display: flex;
+	height: 88vh;
+}
+
+.cajaInicio {
+	display: flex;
+	width: 30vw;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input {
+	width: 150px;
+}
+
+.btn {
+	color: rgb(152, 71, 206);
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 6px;
+	border: none;
+    color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 16px 32px;
+}
+.btn1 {
+	color: white; 
+	background-color: rgb(206, 71, 71); 
+}
+
+.btn1:hover {
+	color: rgb(196, 45, 45);
+	background-color: #E8CA4D;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+#transicion {
+  color: white;
+  transition-property: color;
+  transition-property: all;
+  transition-duration: 1s;
+  width: 120px;
+}
+#transicion:hover {
+  color: rgb(255, 217, 0);
+  border-bottom: 1px solid; 
+  width: 140px;
+}
+
+#transicionPresupuesto {
+  color: white;
+  transition-property: all;
+  transition-duration: 1s;
+  width: 120px;
+}
+#transicionPresupuesto:hover {
+  position: absolute;
+  color: #555;
+  width: 150px;
+  background-color: rgb(255, 217, 0) ;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+/* --------------- Servicios --------------- */
+
+#Servicios {
+	font-family: Belleza;
+	font-size: 100px;
+	margin-left: 70px;
+}
+
+.cajaServicios {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* - Diseño -*/
+
+.cajaDiseno {
+	display: inline-flex;
+	width: 40%;
+}
+
+.imagenDiseno {
+	display: flex;
+	width: 1;
+	margin-left: 20px;
+}
+
+.disenoH2 {
+	display: flex;
+	position: absolute;
+	left: 500px;
+	margin: 20px 0px 30px 0px;
+	font-size: 40px;
+	color: #1EBFA6;
+}
+
+#listaDiseno {
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+	font-family: Belleza;
+	color: #181B5F;
+}
+
+/* - Community -*/
+
+.cajaCommunity {
+	display: inline-flex;
+	flex-direction: row;
+	width: 40%;
+	height: 50%;
+	padding-bottom: 60px;
+}
+
+.imagenCommunity {
+	display: flex;
+	width: 500px;
+	margin-left: 20px;
+}
+
+.communityH2 {
+	display: flex;
+	position: absolute;
+	font-size: 40px;
+	color: #1EBFA6;
+	line-height: 40px;
+	margin: 20px 0px 0px 0px;
+}
+
+#listaCommunity {
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+	font-family: Belleza;
+	color: #181B5F;
+}
+
+/* --------------- Contacto --------------- */
+
+#contacto {
+	font-family: Belleza;
+	font-size: 100px;
+
+}
+
+#contactoBusca {
+	font-family: Belleza;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.p.contacto {
+	display: inline-block;
+	flex-direction: column;
+	font-family: Belleza;
+	color: #181B5F;
+	margin-left: 67px;
+}
+
+.grid-layout{
+	display: grid;
+	grid-gap: 10px;
+}
+
+#grilla {
+	display: grid;
+	grid-template-rows: 250px 300px 200px;
+	grid-template-areas: 
+		"contacto contacto contacto"
+		"texto formulario formulario"
+		"texto formulario formulario"
+		"footer footer footer";
+
+}
+
+#grid-contacto {
+	grid-area: contacto;
+}
+
+#grid-texto {
+	grid-area: texto;
+}
+
+#grid-formulario {
+	grid-area: formulario;
+}
+
+#gird-footer{
+	grid-area: footer;
+	position: relative;
+  	width: 100%;
+  	background-color: #f00;
+}
+

@@ -1,0 +1,106 @@
+/* Variables */
+
+$text-colorOscuro: #424242;
+$text-colorClaro: white;
+
+/* SCSS */
+
+/* Home */
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  margin: 0px 10px 10px 10px;
+  justify-content: center;
+  color: white;
+  font-family: Belleza;
+  position: relative;
+}
+.footer--secciones {
+  @extend .footer;
+
+}
+
+section {
+  margin: 10px 10px 10px 10px;
+}
+
+.textoSecciones {
+    font: Belleza;
+    color: $text-colorOscuro;
+}
+
+.textoHome {
+    font: Belleza;
+    color: $text-colorClaro;
+}
+
+.navHome {
+    a {
+        text-decoration: none;
+        display: inline;
+	    width: 100%;
+        margin-top: 10px;
+        color: $text-colorClaro;
+    }
+    
+}
+
+.h3.home {
+        margin-top: 60px;
+        position: relative;
+        padding-top: 50px;
+        color: $text-colorClaro;
+}
+
+/* Servicios */
+
+#Servicios {
+  font-family: Belleza;
+  font-size: 100px;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.navSecciones {
+        display: inline;
+        padding: 0px 14px 0px 14px;
+        margin-top: 15px;
+        a{
+            font-family: Belleza;
+            color: $text-colorOscuro;
+            text-decoration: none;
+            &:hover {
+                color: #1ebfa6 ;
+            }
+        }
+}
+
+#titulosServicios {
+        display: flex;
+        position: absolute;
+        font-size: 50px;
+        color: #1ebfa6;
+        line-height: 40px;
+        margin: 20px 0px 0px 0px;
+}
+
+#cajaServicios {
+    display: flex;
+    position: absolute;
+    color: #1ebfa6;
+    ul {
+        display: block;
+        padding-top: 100px;
+        li{
+            font-family: Belleza;
+            display: flex;
+            flex-direction: column;
+            color: #181b5f;
+        }
+    }
+}
+
